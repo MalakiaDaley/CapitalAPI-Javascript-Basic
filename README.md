@@ -18,7 +18,7 @@
     </ul>
 <h2 id="installation">Installation</h2>
     <p>To get started, you can install the Capital API JavaScript Client using npm:</p>
-    <pre><code>npm install capital.mjs/code></pre>
+    <pre><code>npm install capital.mjs</code></pre>
     <pre><code>npm install node-fetch</code></pre>
 <h2 id="usage">Usage</h2>
     <p>Here's how you can use the Capital API JavaScript Client to connect to the Capital API:</p>
