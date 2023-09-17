@@ -2,16 +2,12 @@
 <html>
 
 <head>
-    <title>Capital API JavaScript Client</title>
-    <link rel="stylesheet" href="https://img.shields.io/github/license/yourusername/capital-api-js">
-    <link rel="stylesheet" href="https://img.shields.io/github/v/release/yourusername/capital-api-js">
 </head>
 
 <body>
     <h1>Welcome to the Capital API JavaScript Client!</h1>
     <p>This library provides a simple and efficient way to interact with the Capital API, allowing you to access
         account information, retrieve balances, and manage positions with ease.</p>
-    <img src="assets/capital-api-client.png" alt="Capital API Client">
 
     <h2>Table of Contents</h2>
     <ul>
