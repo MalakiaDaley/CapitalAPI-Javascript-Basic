@@ -80,7 +80,7 @@ console.log("Order Position:", position);
 
 <h2 id="contributing">Contributing</h2>
     <p>We welcome contributions from the community. If you encounter any issues or would like to contribute to this
-        library, please <a href="https://github.com/yourusername/capital-api-js/issues">create an issue</a> on GitHub.</p>
+        library, please <a href="https://github.com/MalakiaDaley/CapitalAPI-Javascript-Basic/issues">create an issue</a> on GitHub.</p>
 
 <h2 id="license">License</h2>
     <p>This library is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
