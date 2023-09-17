@@ -8,7 +8,6 @@
     <h1>Welcome to the Capital API JavaScript Client!</h1>
     <p>This library provides a simple and efficient way to interact with the Capital API, allowing you to access
         account information, retrieve balances, and manage positions with ease.</p>
-
     <h2>Table of Contents</h2>
     <ul>
         <li><a href="#installation">Installation</a></li>
