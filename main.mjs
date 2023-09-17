@@ -85,4 +85,7 @@ class Client {
         let jsonResult = await response.json()
         return jsonResult
     };
+ 
 }
+
+export { Client };
