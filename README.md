@@ -30,25 +30,24 @@ const password = "YOUR_PASSWORD";
 
 const capitalClient = new Client(token, email, password);
 </code></pre>
-
-    <h3>Creating a Session</h3>
+ <h3>Creating a Session</h3>
     <p>To create a session and retrieve authentication tokens:</p>
     <pre><code>await capitalClient.createSession();
 </code></pre>
 
-    <h3>Retrieving Account Information</h3>
+<h3>Retrieving Account Information</h3>
     <p>You can easily get your account information:</p>
     <pre><code>const accountInfo = capitalClient.account();
 console.log("Account Information:", accountInfo);
 </code></pre>
 
-    <h3>Retrieving Account Balance</h3>
+<h3>Retrieving Account Balance</h3>
     <p>To get your account balance:</p>
     <pre><code>const balance = await capitalClient.requestBalance();
 console.log("Account Balance:", balance);
 </code></pre>
 
-    <h3>Retrieving Currency Information</h3>
+<h3>Retrieving Currency Information</h3>
     <p>Retrieve currency symbol and name:</p>
     <pre><code>const currencySymbol = capitalClient.currencySymbol();
 const currencyName = capitalClient.currencyName();
@@ -57,20 +56,20 @@ console.log("Currency Symbol:", currencySymbol);
 console.log("Currency Name:", currencyName);
 </code></pre>
 
-    <h3>Retrieving Order Positions</h3>
+ <h3>Retrieving Order Positions</h3>
     <p>Get a list of your order positions:</p>
     <pre><code>const positions = await capitalClient.orderPositions();
 console.log("Order Positions:", positions);
 </code></pre>
 
-    <h3>Retrieving a Specific Order Position</h3>
-    <p>To retrieve a specific order position by deal ID:</p>
+<h3>Retrieving a Specific Order Position</h3>
+<p>To retrieve a specific order position by deal ID:</p>
     <pre><code>const dealID = "YOUR_DEAL_ID";
 const position = await capitalClient.orderPosition(dealID);
 console.log("Order Position:", position);
 </code></pre>
 
-    <h2 id="features">Features</h2>
+ <h2 id="features">Features</h2>
     <ul>
         <li>Create and manage Capital API sessions effortlessly.</li>
         <li>Retrieve account information, including balances and currency details.</li>
@@ -79,14 +78,14 @@ console.log("Order Position:", position);
         <li>Customizable request headers for advanced use cases.</li>
     </ul>
 
-    <h2 id="contributing">Contributing</h2>
+<h2 id="contributing">Contributing</h2>
     <p>We welcome contributions from the community. If you encounter any issues or would like to contribute to this
         library, please <a href="https://github.com/yourusername/capital-api-js/issues">create an issue</a> on GitHub.</p>
 
-    <h2 id="license">License</h2>
+<h2 id="license">License</h2>
     <p>This library is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-    <p>Thank you for using the Capital API JavaScript Client! We hope it simplifies your interactions with the Capital
+<p>Thank you for using the Capital API JavaScript Client! We hope it simplifies your interactions with the Capital
         API. If you have any questions or need further assistance, please don't hesitate to reach out to us. Happy
         coding! 🚀</p>
 </body>
