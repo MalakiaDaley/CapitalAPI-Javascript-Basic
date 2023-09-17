@@ -16,12 +16,10 @@
         <li><a href="#contributing">Contributing</a></li>
         <li><a href="#license">License</a></li>
     </ul>
-
-    <h2 id="installation">Installation</h2>
+<h2 id="installation">Installation</h2>
     <p>To get started, you can install the Capital API JavaScript Client using npm:</p>
     <pre><code>npm install capital-api-js</code></pre>
-
-    <h2 id="usage">Usage</h2>
+<h2 id="usage">Usage</h2>
     <p>Here's how you can use the Capital API JavaScript Client to connect to the Capital API:</p>
     <pre><code>import { Client } from "capital-api-js";
 
