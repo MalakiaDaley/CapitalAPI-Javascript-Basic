@@ -22,7 +22,7 @@
     <pre><code>npm install node-fetch</code></pre>
 <h2 id="usage">Usage</h2>
     <p>Here's how you can use the Capital API JavaScript Client to connect to the Capital API:</p>
-    <pre><code>import { Client } from "capital-api-js";
+    <pre><code>import { Client } from "capital.mjs";
 
 // Initialize the client with your API credentials
 const token = "YOUR_API_TOKEN";
